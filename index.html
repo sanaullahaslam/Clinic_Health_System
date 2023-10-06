@@ -86,10 +86,47 @@
             color: #ffffff;
         }
 
+        .right-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #FD5E84; /* Pink background color */
+            color: #ffffff;
+        }
+
+        .right-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Optional: add a border radius to the image */
+        }
+
+        /* New Section Styles */
+        .our-section {
+            padding: 50px;
+        }
+
+        .our-section h2 {
+            text-align: left;
+            color: #FD5E84;
+        }
+
+        .our-section p {
+            text-align: left;
+            color: #343a40;
+        }
+
+        .card-deck {
+            margin-top: 20px;
+        }
+
+        .card {
+            border: none;
+            background-color: #ffffff;
+        }
+
         /* Add your custom styles here */
 
     </style>
-    <title>Clinic Health</title>
+    <title>Dr. Sanaullah's Clinic</title>
 </head>
 
 <body>
@@ -115,7 +152,7 @@
         <div class="row">
             <!-- Left Section -->
             <div class="col-md-6 left-section">
-                <h3 style="color: #FD5E84;">WE MAKE DREAMS COME TRUE</h3>
+                <h2>WE MAKE DREAMS COME TRUE</h2>
                 <h1>Bringing happiness to thousands of Patients.</h1>
                 <p>We find out exactly why a patient is not getting treatment and fix it with our simple treatments, so that the patient can conceive faster!</p>
                 <button class="btn get-in-touch-btn">Get In Touch</button>
@@ -129,12 +166,50 @@
 
         <!-- Book an Appointment Section -->
         <div class="row">
-            <div class="col-md-12 bg-white book-appointment-section">
-                <h3>Book an Appointment</h3>
-                <h2>Lets Start with your first name.</h2>
+            <div class="col-md-12 book-appointment-section">
+                <h2>Book an Appointment</h2>
+                <h3>Lets Start with your first name.</h3>
                 <p>Note: Your name part should be in pink color.</p>
                 <input type="text" class="form-control book-appointment-input" placeholder="Your First Name">
                 <button class="btn book-appointment-btn">Next</button>
+            </div>
+        </div>
+
+        <!-- Our Section -->
+        <div class="row">
+            <div class="col-md-12 our-section">
+                <h2>Our Section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consectetur ultrices justo, nec dictum felis facilisis ut. Nam vel justo vel justo vulputate cursus. Proin euismod auctor velit, vel euismod purus feugiat vel.</p>
+
+                <!-- Card Deck -->
+                <div class="card-deck">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <img src="l.jpg" class="card-img-top" alt="Card Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <img src="dr 2.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <img src="dr.png" class="card-img-top" alt="Card Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
